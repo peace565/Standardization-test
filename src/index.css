@@ -1,0 +1,201 @@
+header{
+    display:flex;
+    flex-direction: row;
+   
+ 
+height: 58px;
+gap: 0px;
+justify-content: space-between;
+opacity: 0px;
+background-color:  #23856D;
+
+;
+
+}
+nav{
+    display:flex;
+    flex-direction:row;
+   
+height: 58px;
+top: 70px;
+padding: 0px 17px 0px 38px;
+gap: 324px;
+border-radius: 34px 0px 0px 0px;
+opacity: 0px;
+
+}
+.col-1{
+    display:flex;
+    flex-direction:row;
+}
+
+.col-2{
+    display:flex;
+    flex-direction:row;
+}
+
+.col-3{
+    display:flex;
+    flex-direction:row;
+}
+li{
+    display:flex;
+    flex-direction:row; 
+}
+.col-4{
+    display:flex;
+    flex-direction:row;
+}
+/*hero-section */
+.hero{
+
+height: 784px;
+top: 136px;
+padding: 4px 147px 4px 100px;
+gap: 40px;
+opacity: 0px;
+
+}
+
+.box{
+   
+    width: Hug (1,146px)px;
+    height: Hug (776px)px;
+    top: 4px;
+    left: 147px;
+    padding: 80px 0px 80px 0px;
+    gap: 0px;
+    opacity: 0px;
+      
+    
+
+}
+
+.images{
+    width: Fixed (1,146px)px;
+    height: Hug (616px)px;
+    gap: 15px;
+    opacity: 0px;
+    display:flex;
+    
+}
+.hero-img{
+    width: Fixed (1,146px)px;
+height: Hug (616px)px;
+gap: 15px;
+opacity: 0px;
+
+}
+/*product-cards */
+.products{
+   
+    width: 70%;
+height: 1241px;
+padding: 0px 158px 0px 158px;
+gap: 0px;
+opacity: 0px;
+
+}
+.product-text{
+   
+   text-align: center;
+width: Fixed (691px)px;
+height: Hug (102px)px;
+gap: 10px;
+opacity: 0px;
+justify-content: center;
+
+}
+button{
+    position:relative;
+    left:45%;
+}
+/* Features*/
+.layout{
+    width: 70%;
+height: 632px;
+padding: 0px 195px 16px 195px;
+gap: 0px;
+opacity: 0px;
+
+}
+.features{
+    width: Fixed (1,050px)px;
+height: Hug (616px)px;
+left: 195px;
+padding: 80px 0px 80px 0px;
+gap: 80px;
+opacity: 0px;
+
+
+
+}
+
+.feature{
+    text-align:center;
+    width: Hug (315px)px;
+height: Hug (254px)px;
+padding: 35px 40px 35px 40px;
+gap: 20px;
+opacity: 0px;
+
+}
+.feat-img{
+    display:flex;
+    flex-direction:row;
+    width: Hug (1,045px)px;
+height: Hug (274px)px;
+gap: 40px;
+opacity: 0px;
+
+}
+/* Blog*/
+.blog{
+    width: 70%;
+height: 994px;
+padding: 0px 195px 0px 140px;
+gap: 0px;
+opacity: 0px;
+
+}
+.posts{
+    width: Fixed (1,050px)px;
+height: Hug (994px)px;
+left: 195px;
+padding: 112px 0px 112px 0px;
+gap: 80px;
+opacity: 0px;
+
+}
+.post-text{
+    text-align:center;
+    padding-left:120px;
+}
+.postcard{
+    width: Hug (1,045px)px;
+height: Hug (606px)px;
+
+opacity: 0px;
+
+}
+/* Testimonial*/
+.Testimonial{
+width: Fixed (1,128px)px;
+height: Hug (682px)px;
+left: 117px;
+padding: 80px 0px 80px 0px;
+gap: 0px;
+opacity: 0px;
+}
+.About{
+    display:flex;
+    flex-direction: row;
+    width: Fixed (1,128px)px;
+height: Hug (522px)px;
+padding: 48px 0px 0px 0px;
+gap: 0px;
+justify-content: space-between;
+opacity: 0px;
+
+}
+
