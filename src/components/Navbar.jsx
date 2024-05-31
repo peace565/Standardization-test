@@ -1,16 +1,17 @@
 import React from 'react'
 
+
 const Navbar=()=> {
     return (
        <>
        <div className="container">
         <header>
            <div className="col-1">
-            <img className="phone" src="./icons/phone-icon"/>
+            <img className="phone" src="/icons/phone-icon.png"/>
             <p>(225)555-018</p>
             </div>
             <div className="col-2"> 
-                <img className="email"src=""/>
+                <img className="email"src="/icons/email-icon.png"/>
                 <p>michellereivera@gmail.com </p>
                 </div >
 
@@ -28,7 +29,7 @@ const Navbar=()=> {
 
         <nav>
             <p>Bandage</p>
-            <li>
+            <li className="nav-list">
                 <ul>Home</ul>
                 <ul>Shop</ul>
                 <ul>About</ul>
