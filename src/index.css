@@ -2,7 +2,7 @@ header{
     display:flex;
     flex-direction: row;
    
- 
+ width:fill;
 height: 58px;
 gap: 0px;
 justify-content: space-between;
@@ -15,7 +15,7 @@ background-color:  #23856D;
 nav{
     display:flex;
     flex-direction:row;
-   
+
 height: 58px;
 top: 70px;
 padding: 0px 17px 0px 38px;
@@ -27,18 +27,34 @@ opacity: 0px;
 .col-1{
     display:flex;
     flex-direction:row;
+    gap:5px;
+    align-items:center;
 }
+.phone{
+    width: 16px;
+height: 16px;
+gap: 0px;
+opacity: 0px;
+
+}
+.email{width: 16px;
+    height: 16px;
+    gap: 0px;
+    opacity: 0px;
+    }
 
 .col-2{
     display:flex;
     flex-direction:row;
+    gap:0px;
+    align-items:center;
 }
 
 .col-3{
     display:flex;
     flex-direction:row;
 }
-li{
+.nav-list{
     display:flex;
     flex-direction:row; 
 }
@@ -94,6 +110,9 @@ height: 1241px;
 padding: 0px 158px 0px 158px;
 gap: 0px;
 opacity: 0px;
+display:flex;
+flex-direction:column;
+
 
 }
 .product-text{
@@ -106,9 +125,20 @@ opacity: 0px;
 justify-content: center;
 
 }
+.product-cards{
+    width:auto;
+    height:800px;
+    display:flex;
+}
+.product-image{
+    width:100px;
+    height:100px;
+}
 button{
     position:relative;
     left:45%;
+    
+    width:200px;
 }
 /* Features*/
 .layout{
@@ -179,6 +209,14 @@ opacity: 0px;
 
 }
 /* Testimonial*/
+.testimonials{
+    width: 75%;
+height: 682px;
+padding: 0px 195px 0px 117px;
+gap: 0px;
+opacity: 0px;
+
+}
 .Testimonial{
 width: Fixed (1,128px)px;
 height: Hug (682px)px;
@@ -192,10 +230,198 @@ opacity: 0px;
     flex-direction: row;
     width: Fixed (1,128px)px;
 height: Hug (522px)px;
-padding: 48px 0px 0px 0px;
-gap: 0px;
+padding: 48px 0px 0px 48px;
+gap: 120px;
 justify-content: space-between;
 opacity: 0px;
 
 }
+.about-images{
+    gap:30px;
+    text-align:center;
+    justify-content:center;
+    display:flex;
+    flex-direction: column;
+    width:90px;
+    padding-left:170px;
+   
+}
+.about-us{
+    width: Fixed (438px)px;
+height: Hug (388.01px)px;
+gap: 28px;
+opacity: 0px;
+text-align:center;
+justify-content: center;
 
+}
+.grid{
+    width: Fixed (464px)px;
+height: Fixed (426px)px;
+gap: 20px;
+opacity: 0px;
+
+}
+.details{
+    text-align:center;
+    width: 451px;
+height: 48px;
+gap: 0px;
+opacity: 0px;
+
+}
+/* Cta-section*/
+.Cta-contain{
+    display:flex;
+    flex-direction: column;
+    
+   
+   
+width: Fixed (1,050px)px;
+height: Hug (640px)px;
+left: 195px;
+padding: 160px 0px 112px 0px;
+gap: 24px;
+opacity: 0px;
+ background-image: url(/public/images/background.png);
+}
+.cta{
+    
+    width: Hug (571px)px;
+height: Hug (368px)px;
+gap: 30px;
+opacity: 0px;
+
+}
+
+.cta-text{
+    text-align:center;
+}
+/* Footer*/
+.Footer{
+    width: 1440px;
+height: 488px;
+gap: 40px;
+opacity: 0px;
+
+}
+.section-1{
+    width: 70%;
+height: 142px;
+padding: 0px 195px 4px 195px;
+gap: 40px;
+opacity: 0px;
+background-color:  #FAFAFA;
+
+
+}
+.section-2{
+    width:70%;
+    
+height: 272px;
+top: 142px;
+padding: 0px 195px 50px 195px;
+
+gap: 40px;
+opacity: 0px;
+
+
+}
+.contain-2{
+   
+
+width: 70%;
+height: Hug (270px)px;
+left: 195px;
+padding: 50px 0px 50px 0px;
+gap: 0px;
+opacity: 0px;
+
+
+
+}
+.section-3{
+    width: 70%;
+height: 74px;
+top: 414px;
+padding: 0px 195px 0px 195px;
+gap: 40px;
+opacity: 0px;
+background-color:#fafafa;
+
+
+
+}
+.lists{
+    display:flex;
+    flex-direction:row;
+    width: 1041px;
+    height: Hug (170px)px;
+    gap: 50px;
+    opacity: 0px;
+}
+.list{
+    
+font-size: 14px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0.20000000298023224px;
+text-align: left;
+
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+  
+    text-align:left;
+    
+}
+li{
+    display:flex;
+    flex-direction: column;
+   
+   text-align: left;
+
+}
+
+.input-group{
+    width: 250px;
+    height: 58px;
+    gap: 0px;
+    opacity: 0px;
+position:relative;
+display:flex;
+    
+    
+
+
+
+}
+input{
+ width: 250px;
+height: 58px;
+gap: 0px;
+opacity: 0px;
+
+
+}
+.sub{
+    width: 150px;
+    height: 65px;
+    padding: 15px 22.5px 15px 22.5px;
+    gap: 10px;
+    border-radius: 0px 5px 5px 0px;
+    
+    opacity: 0px;
+    left:0px;
+    
+
+}
+.lasttext{
+    width: Fixed (1,050px)px;
+height: Hug (74px)px;
+left: 195px;
+padding: 25px 0px 25px 0px;
+gap: 0px;
+opacity: 0px;
+
+}
