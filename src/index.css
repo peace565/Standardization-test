@@ -2,7 +2,7 @@ header{
     display:flex;
     flex-direction: row;
    
- 
+ width:fill;
 height: 58px;
 gap: 0px;
 justify-content: space-between;
@@ -15,7 +15,7 @@ background-color:  #23856D;
 nav{
     display:flex;
     flex-direction:row;
-   
+
 height: 58px;
 top: 70px;
 padding: 0px 17px 0px 38px;
@@ -110,6 +110,9 @@ height: 1241px;
 padding: 0px 158px 0px 158px;
 gap: 0px;
 opacity: 0px;
+display:flex;
+flex-direction:column;
+
 
 }
 .product-text{
@@ -122,9 +125,20 @@ opacity: 0px;
 justify-content: center;
 
 }
+.product-cards{
+    width:auto;
+    height:800px;
+    display:flex;
+}
+.product-image{
+    width:100px;
+    height:100px;
+}
 button{
     position:relative;
     left:45%;
+    
+    width:200px;
 }
 /* Features*/
 .layout{
