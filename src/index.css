@@ -126,9 +126,14 @@ justify-content: center;
 
 }
 .product-cards{
-    width:auto;
-    height:800px;
-    display:flex;
+    width: Fixed (1,115px)px;
+    height: Hug (879px)px;
+    gap: 30px;
+    opacity: 0px;
+display: flex;    
+flex-direction:row;
+padding:16px;
+width:calc(33.333%-40px);
 }
 .product-image{
     width:100px;
