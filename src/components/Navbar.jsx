@@ -17,11 +17,11 @@ const Navbar=()=> {
 
              <p>follow us and get a chance to win 80% off</p>
             <div className="col-3">
-                <p>Follow us : elihejka,gb,kgj/kav.hkv.afdhvfah.ks</p>
-                <img/>
-                <img/>
-                <img/>
-                <img/>
+               
+                <img src=""/>
+                <img src=""/>
+                <img src=""/>
+                <img src=""/>
             </div>
             
 

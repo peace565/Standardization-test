@@ -14,7 +14,15 @@ const api =createApi({
                 return response;
             },
         }),
+        getProductById:builder.query({
+            query:(id)=> '/products/${id}',
+            transformResponse: (response) => {
+                // Log the response data to the console
+                console.log('API Response:', response);
+                return response;
+            },
+        })
     }),
 });
-export const {useGetAllProductsQuery}= api;
+export const {useGetAllProductsQuery,useGetProductByIdQuery}= api;
 export default api;

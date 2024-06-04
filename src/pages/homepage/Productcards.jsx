@@ -1,5 +1,6 @@
 import React from 'react';
 import {useGetAllProductsQuery} from '../../services/Api'
+import {Link} from 'react-router-dom';
 
 const Productcards=()=> {
    const{data ,error,isLoading}
@@ -24,14 +25,15 @@ const Productcards=()=> {
                     {!isLoading && !error && products.length === 0 && <div>No products available</div>}
     {Array.isArray(products) && products.map(
         product=>(
-            <div key={product.id}>
-                <img src={product.images}className="product-image"/>
-                <h3>{product.name}</h3>
-                <p>{product.description}</p>
-                <p>${product.price}</p>
+            < Link to ={'/products/${id}'}key={product.id} className="product-card">
+                <img src={product.images[0]}className="product-image"/>
+                <h3>{product.category}</h3>
+                <p>{product.brand}</p>
+                  <p>${product.price}</p>
+                  <p>{product.discountPercentage}</p>
 
 
-            </div>
+            </Link>
         )
     )
     }

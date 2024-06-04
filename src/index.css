@@ -126,9 +126,14 @@ justify-content: center;
 
 }
 .product-cards{
-    width:auto;
-    height:800px;
-    display:flex;
+    width: Fixed (1,115px)px;
+    height: Hug (879px)px;
+    gap: 30px;
+    opacity: 0px;
+display: flex;    
+flex-direction:row;
+padding:16px;
+width:calc(33.333%-40px);
 }
 .product-image{
     width:100px;
@@ -423,5 +428,16 @@ left: 195px;
 padding: 25px 0px 25px 0px;
 gap: 0px;
 opacity: 0px;
+
+}
+
+/*Single product page */
+.singleproduct{
+    width: 1440px;
+height: 598px;
+padding: 0px 195px 0px 195px;
+gap: 40px;
+opacity: 0px;
+background-color:#fafafa
 
 }
