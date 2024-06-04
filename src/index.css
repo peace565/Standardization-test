@@ -430,3 +430,14 @@ gap: 0px;
 opacity: 0px;
 
 }
+
+/*Single product page */
+.singleproduct{
+    width: 1440px;
+height: 598px;
+padding: 0px 195px 0px 195px;
+gap: 40px;
+opacity: 0px;
+background-color:#fafafa
+
+}
